@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        {% include header.html %}
+    </nav>
+
+    {{ content }}
+    
+    <section id="contact">
+        {% include footer.html %}
+    </section>
+
+    <!-- jQuery -->
+    <script src="{{  '/assets/js/jquery.js' }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{  '/assets/js/bootstrap.min.js' }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{  '/assets/js/scrollreveal.min.js' }}"></script>
+    <script src="{{  '/assets/js/jquery.easing.min.js' }}"></script>
+    <script src="{{  '/assets/js/jquery.fittext.js' }}"></script>
+    <script src="{{  '/assets/js/jquery.magnific-popup.min.js' }}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{  '/assets/js/creative.js' }}"></script>
+    <script src="{{  '/assets/js/extra.js' }}"></script>
+
+</body>
+
+</html>
